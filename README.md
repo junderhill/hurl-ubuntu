@@ -50,5 +50,5 @@ end2end_tests:
         - "./bin/main"
 
   script:
-    - hurl --test --variable host=http://api:8888 ./hurltests/testsuite.hurl
+    - hurl --test --variable host=http://api:8888 --glob "./hurltests/*.hurl"
 ```
