@@ -1,14 +1,16 @@
 # hurl-ubuntu
 
-Docker image, based on Ubuntu, with HURL installed for automated API testing.
+Docker image, based on Ubuntu, with Hurl installed for automated API testing.
 
 This image also installed the dotnet SDK. My use case for this image required the use of some bespoke dotnet tooling to scaffold a database for testing scenarios.
 
-## What is HURL?
+## What is Hurl?
 
 > Hurl is a command line tool that runs HTTP requests defined in a simple plain text format.
 > It can chain requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for both fetching data and testing HTTP sessions.
 > Hurl makes it easy to work with HTML content, REST / SOAP / GraphQL APIs, or any other XML / JSON based APIs.
+
+Find out more about Hurl [here](https://hurl.dev/).
 
 ## Why do I need this image?
 
