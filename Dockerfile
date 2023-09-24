@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ARG HURL_VERSION=4.0.0
+ARG HURL_VERSION=4.1.0
 
 RUN apt update && apt install -y curl jq ca-certificates libc6 libcurl4 zlib1g libxml2
 RUN curl -LO "https://github.com/Orange-OpenSource/hurl/releases/download/${HURL_VERSION}/hurl_${HURL_VERSION}_amd64.deb"
